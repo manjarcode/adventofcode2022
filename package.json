@@ -1,0 +1,21 @@
+{
+  "name": "adventofcode2022",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Advent of Code 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "day3": "node ./day3/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manjarcode/adventofcode2022.git"
+  },
+  "author": "manjarcode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manjarcode/adventofcode2022/issues"
+  },
+  "homepage": "https://github.com/manjarcode/adventofcode2022#readme"
+}
