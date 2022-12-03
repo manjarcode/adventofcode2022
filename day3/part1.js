@@ -1,3 +1,5 @@
+import {priority, sum} from './common.js'
+
 function splitHalf(input) {
   const length = input.length
   const lengthHalf = length / 2
@@ -16,10 +18,6 @@ function checkRepeats({first, second}) {
 }
 
 
-function priority(item) {
-  const prio = '>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  return prio.indexOf(item)
-}
 
 export function part1(input) {
   const repeated = input.map(line => {
@@ -28,8 +26,6 @@ export function part1(input) {
     return priority(item)
   })
 
-  const result = repeated.reduce((acum, current) => acum + current, 0)
-
-  return result
+  return sum(repeated)
 }
 
