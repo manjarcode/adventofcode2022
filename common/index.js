@@ -1,3 +1,4 @@
+export {readFileIterator} from './fileManagement.js'
 
 export function priority(item) {
   const prio = '>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -7,3 +8,5 @@ export function priority(item) {
 export function sum(array) {
   return array.reduce((acum, current) => acum + current, 0)
 }
+
+

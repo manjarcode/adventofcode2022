@@ -1,4 +1,4 @@
-import {priority, sum} from './common.js'
+import {priority, sum} from '../common/index.js'
 
 function splitHalf(input) {
   const length = input.length
